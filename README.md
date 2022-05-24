@@ -4,7 +4,7 @@
  - Restaurant page project made for The Odin Project Curriculum.
 
 💡 Features
- -Responsive design
+ - Responsive design
  - Navigation Tabs
  - Accessible form
 
