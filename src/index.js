@@ -1,3 +1,3 @@
-import './style.css';
+import intializeWebsiteBody from "./website";
 
-console.log('meow')
+intializeWebsiteBody();

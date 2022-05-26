@@ -1,29 +1,20 @@
 {
-    "name": "restaurant-page",
+    "name": "jasmine-dragon",
     "version": "1.0.0",
-    "description": "\"\"\u001b[D\u0016Restaurant page project made for The Odin Project Curriculum.",
+    "description": "",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "watch": "webpack --watch",
-        "start": "webpack serve --open",
         "build": "webpack"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/u3qureshi/restaurant-page.git"
-    },
-    "author": "Usman Qureshi",
+    "keywords": [],
+    "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/u3qureshi/restaurant-page/issues"
+    "dependencies": {
+        "lodash": "^4.17.21"
     },
-    "homepage": "https://github.com/u3qureshi/restaurant-page#readme",
     "devDependencies": {
-        "css-loader": "^6.7.1",
-        "style-loader": "^3.3.1",
         "webpack": "^5.72.1",
-        "webpack-cli": "^4.9.2",
-        "webpack-dev-server": "^4.9.0"
+        "webpack-cli": "^4.9.2"
     }
 }
