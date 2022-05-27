@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'AvatarFont';
-    src: url('../dist/fonts/herculanum.ttf') format('truetype');
+    src: url('fonts/herculanum.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'TattooFont';
-    src: url('../dist/fonts/Tattoo.ttf') format('truetype');
+    src: url('fonts/Tattoo.ttf') format('truetype');
 }
 
 * {

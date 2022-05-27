@@ -3,7 +3,7 @@ function makeAbout() {
     aboutPage1.classList.add('about-page1');
 
     const irohImg = document.createElement('img');
-    irohImg.src = '../dist/images/iroh-smiling.jpg';
+    irohImg.src = 'images/iroh-smiling.jpg';
     irohImg.alt = 'Happy Iroh';
 
     const aboutTitle = document.createElement('h2');
