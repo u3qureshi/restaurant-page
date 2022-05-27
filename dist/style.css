@@ -303,3 +303,43 @@ html {
     margin: 2em;
     margin-top: 1em
 }
+
+.contact3 img {
+    width: 500px;
+    height: auto;
+}
+
+#contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 1em;
+}
+
+.contact-grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 1em;
+}
+
+.contact-grid-item h2 {
+    font-size: 1.7rem;
+    color: green;
+    text-shadow: 1px 1px 2px black;
+}
+
+.contact-grid-item h4 {
+    margin: 0.1rem;
+    margin-inline: 1em;
+    color: black;
+}
+
+.contact3 {
+    border: 2px solid greenyellow;
+    padding: 0;
+    border-radius: 40px;
+}
