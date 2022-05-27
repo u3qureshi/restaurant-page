@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'AvatarFont';
-    src: url('../src/fonts/herculanum.ttf') format('truetype');
+    src: url('../dist/fonts/herculanum.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'TattooFont';
-    src: url('../src/fonts/Tattoo.ttf') format('truetype');
+    src: url('../dist/fonts/Tattoo.ttf') format('truetype');
 }
 
 * {
@@ -278,6 +278,7 @@ html {
     margin: 1em;
     color: greenyellow;
     align-self: center;
+    text-shadow: 2px 2px 2px black;
 }
 
 .about-page2 {
@@ -303,6 +304,9 @@ html {
     margin: 2em;
     margin-top: 1em
 }
+
+
+/*Contact page*/
 
 .contact3 img {
     width: 500px;

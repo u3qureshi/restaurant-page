@@ -3,11 +3,11 @@ function makeAbout() {
     aboutPage1.classList.add('about-page1');
 
     const irohImg = document.createElement('img');
-    irohImg.src = '../src/images/iroh-smiling.jpg';
+    irohImg.src = '../dist/images/iroh-smiling.jpg';
     irohImg.alt = 'Happy Iroh';
 
     const aboutTitle = document.createElement('h2');
-    aboutTitle.textContent = 'WHO WE ARE';
+    aboutTitle.textContent = 'WHO WE ARE 🌺';
 
     aboutPage1.appendChild(aboutTitle);
     aboutPage1.appendChild(irohImg);

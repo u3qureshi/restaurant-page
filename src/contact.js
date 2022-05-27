@@ -28,7 +28,7 @@ function makeContact() {
     contactDiv3.classList.add('contact3');
     contactDiv3.classList.add('contact-grid-item');
     const shopImg = document.createElement('img');
-    shopImg.src = '../src/images/jasmine-dragon-front.png';
+    shopImg.src = '../dist/images/jasmine-dragon-front.png';
     shopImg.alt = 'Shop Front';
     contactDiv3.appendChild(shopImg);
 

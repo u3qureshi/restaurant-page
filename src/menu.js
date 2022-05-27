@@ -5,40 +5,40 @@ function makeMenu() {
 
     //12 images
     const airTeaImg = document.createElement('img');
-    airTeaImg.src = '../src/images/air-tea.png';
+    airTeaImg.src = '../dist/images/air-tea.png';
 
     const metalTea = document.createElement('img');
-    metalTea.src = '../src/images/black-tea.jpg';
+    metalTea.src = '../dist/images/black-tea.jpg';
 
     const gingerTea = document.createElement('img');
-    gingerTea.src = '../src/images/ginger-tea.png';
+    gingerTea.src = '../dist/images/ginger-tea.png';
 
     const ginsengTea = document.createElement('img');
-    ginsengTea.src = '../src/images/ginseng-tea.jpg';
+    ginsengTea.src = '../dist/images/ginseng-tea.jpg';
 
     const greenTea = document.createElement('img');
-    greenTea.src = '../src/images/green-tea.png';
+    greenTea.src = '../dist/images/green-tea.png';
 
     const jasmineTea = document.createElement('img');
-    jasmineTea.src = '../src/images/jasmine-tea.png';
+    jasmineTea.src = '../dist/images/jasmine-tea.png';
 
     const benderTea = document.createElement('img');
-    benderTea.src = '../src/images/oolong-tea.jpg';
+    benderTea.src = '../dist/images/oolong-tea.jpg';
 
     const lycheeTea = document.createElement('img');
-    lycheeTea.src = '../src/images/lychee.png';
+    lycheeTea.src = '../dist/images/lychee.png';
 
     const tapiocaTea = document.createElement('img');
-    tapiocaTea.src = '../src/images/tapioca-tea.png';
+    tapiocaTea.src = '../dist/images/tapioca-tea.png';
 
     const whiteTea = document.createElement('img');
-    whiteTea.src = '../src/images/white-tea.jpg';
+    whiteTea.src = '../dist/images/white-tea.jpg';
 
     const spiceTea = document.createElement('img');
-    spiceTea.src = '../src/images/spice-tea.png';
+    spiceTea.src = '../dist/images/spice-tea.png';
 
     const redTea = document.createElement('img');
-    redTea.src = '../src/images/red-tea.png';
+    redTea.src = '../dist/images/red-tea.png';
 
     gridContainer.appendChild(
         makeMenuGridItem(
@@ -157,7 +157,7 @@ function makeMenuGridItem(name, description, price, img) {
     priceDiv.classList.add('price-div');
 
     const coinImg = document.createElement('img');
-    coinImg.src = '../src/images/chinese-coin.png';
+    coinImg.src = '../dist/images/chinese-coin.png';
 
     priceDiv.appendChild(teaPrice);
     priceDiv.appendChild(coinImg);

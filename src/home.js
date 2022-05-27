@@ -3,7 +3,7 @@ function createHome() {
     homePage.classList.add('home-page');
 
     const companyImg = document.createElement('img');
-    companyImg.src = '../src/images/jasmine-dragon-logo.jpg';
+    companyImg.src = '../dist/images/jasmine-dragon-logo.jpg';
     companyImg.alt = 'Jasmine Dragon logo';
 
     const companyImgDiv = document.createElement('div');
